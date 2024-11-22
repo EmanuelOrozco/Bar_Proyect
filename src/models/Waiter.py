@@ -39,7 +39,7 @@ class Waiter:
         self.current_order = new_order
         return
 
-    def pay_order(self, table: Table) -> None:
+    def finish_order(self, table: Table) -> None:
         self.current_order.status = True
         self.orders_placed.append(self.current_order)
         table.orders_placed.append(self.current_order)

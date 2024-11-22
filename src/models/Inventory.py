@@ -16,12 +16,12 @@ class Inventory:
                 else:
                     if self.inventory[product] - quantity < 0 :
                         print("Not enough product in the inventory")
-                        return product
+                        return False
                     else:
                         self.inventory[product] -= quantity
-                        return True
+                        return product
 
-    def add_product(self, name_product: str, price: float, quantity: int) -> None:
+    def add_product_inventory(self, name_product: str, price: float, quantity: int) -> None:
         new_product = Product(name_product, price)
         self.inventory[new_product] = quantity
         return
