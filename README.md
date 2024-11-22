@@ -31,4 +31,8 @@
 ## UML Diagram Class
 - url: https://drive.google.com/file/d/1klMp5p3ypNC_fg-_QSDYqmc7Rv4gzxJE/view?usp=sharing
 - image: 
-![Modelo de clases](./assets/Bar_Class_Diagram.png)
+![Class Model](./assets/Bar_Class_Diagram.png)
+
+## UML Entity Class
+- image:
+- ![Entity Model](./assets/Bar_Entity_Diagram.png)
