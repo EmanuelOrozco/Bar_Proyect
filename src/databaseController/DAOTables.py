@@ -2,7 +2,7 @@ import sqlite3
 from models import Table  
 
 
-class TableManager:
+class DAOTable:
     def __init__(self, db_name: str):
         self.conn = sqlite3.connect(db_name)
         self.cursor = self.conn.cursor()
