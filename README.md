@@ -29,6 +29,6 @@
     - The system must manage the user login (administrator or waiter) also provides a menu of options accordingly.
 
 ## UML Diagram Class
-- url: https://drive.google.com/file/d/1ADOTfOcsMje05PkEfQukSYhZCVEORzXI/view?usp=sharing
+- url: https://drive.google.com/file/d/1klMp5p3ypNC_fg-_QSDYqmc7Rv4gzxJE/view?usp=sharing
 - image: 
 ![Modelo de clases](./assets/Bar_Class_Diagram.png)

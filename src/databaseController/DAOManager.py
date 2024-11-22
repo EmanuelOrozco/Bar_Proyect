@@ -1,6 +1,7 @@
-
 import sqlite3
 from models import Admin
+
+
 class AdminManager:
     def __init__(self, db_name: str):
         self.conn = sqlite3.connect(db_name)
@@ -21,7 +22,7 @@ class AdminManager:
     def close(self):
         """Cierra la conexión"""
         self.conn.close()
-        
+
     def delete_admin(self, admin : Admin):
         """Elimina un administrador de la base de datos por ID"""
         try:
