@@ -21,7 +21,7 @@ class Waiter:
     def update_waiter():
         ...
     
-    def generate_orde():
+    def generate_order():
         ...
     
     def pay_order():
